@@ -15,7 +15,7 @@ test: vet
 	go test ./...
 
 build: test
-	go build
+	go build -o ${binary_name}
 
 clean:
 	go clean
