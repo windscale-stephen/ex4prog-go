@@ -12,7 +12,7 @@ import (
 // If it's unable to successfully write the prompt it displays an error message
 // and exits the program.
 func DisplayPrompt(w io.Writer, prompt string) error {
-	_, err := fmt.Fprintf(w, prompt)
+	_, err := fmt.Fprint(w, prompt)
 	if err != nil {
 		log.Fatal(err)
 	}

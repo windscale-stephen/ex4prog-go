@@ -1,13 +1,14 @@
 .DEFAULT_GOAL := build
 binary_name = tipcalc
 
-.PHONEY: build fmt test vet clean
+.PHONEY: build fmt test vet clean 
 
 fmt:
 	go fmt ./...
 
 vet: fmt
 	go vet ./...
+	staticcheck ./...
 
 test: vet
 	go test ./...
