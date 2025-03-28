@@ -4,7 +4,7 @@ binary_name = tipcalc
 .PHONEY: build fmt test vet clean 
 
 fmt:
-	go fmt ./...
+	goimports -l -w .
 
 vet: fmt
 	go vet ./...
