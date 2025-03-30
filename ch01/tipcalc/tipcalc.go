@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/windscale-stephen/ex4prog_go/tipcalc/internal/tipcalc"
+	"github.com/windscale-stephen/ex4prog_go/ch01/tipcalc/internal/tipcalc"
 )
 
 func main() {

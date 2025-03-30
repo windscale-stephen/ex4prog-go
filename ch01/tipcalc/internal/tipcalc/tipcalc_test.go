@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/windscale-stephen/ex4prog_go/tipcalc/internal/tipcalc"
+	"github.com/windscale-stephen/ex4prog_go/ch01/tipcalc/internal/tipcalc"
 )
 
 func TestDisplayPrompt(t *testing.T) {
